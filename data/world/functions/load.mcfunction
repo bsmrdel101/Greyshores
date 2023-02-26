@@ -4,6 +4,7 @@ scoreboard objectives add academyRoom0 dummy
 scoreboard objectives add academyRoom1 dummy
 scoreboard objectives add academyLibrary dummy
 scoreboard objectives add academyBoss dummy
+scoreboard objectives add breakFence minecraft.mined:oak_fence
 
 # Set initial scoreboard values
 scoreboard players set @e[tag=dev] academyRoom0 0
